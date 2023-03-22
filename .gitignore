@@ -17,6 +17,10 @@ main.js
 
 # obsidian
 data.json
+test-vault/.obsidian/workspace
+test-vault/.obsidian/plugins/hext/*.css
+test-vault/.obsidian/plugins/hext/*.js
+test-vault/.obsidian/plugins/hext/*.json
 
 # Exclude macOS Finder (System Explorer) View States
 .DS_Store

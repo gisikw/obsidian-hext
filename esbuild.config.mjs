@@ -1,6 +1,7 @@
 import esbuild from "esbuild";
 import process from "process";
 import builtins from "builtin-modules";
+import { copy } from "esbuild-plugin-copy";
 
 const banner =
 `/*
@@ -34,10 +35,20 @@ const context = await esbuild.context({
 		...builtins],
 	format: "cjs",
 	target: "es2018",
-	 logLevel: "info",
+	logLevel: "info",
 	sourcemap: prod ? false : "inline",
 	treeShaking: true,
-	outfile: "main.js",
+	outfile: "test-vault/.obsidian/plugins/hext/main.js",
+	plugins: [
+		copy({
+			assets: [
+				{ from: './manifest.json', to: 'manifest.json' },
+				{ from: './styles.css', to: 'styles.css' },
+			],
+			copyOnStart: true,
+			watch: true,
+		}),
+	]
 });
 
 if (prod) {
