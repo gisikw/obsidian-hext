@@ -44,6 +44,7 @@ const context = await esbuild.context({
 			assets: [
 				{ from: './manifest.json', to: 'manifest.json' },
 				{ from: './styles.css', to: 'styles.css' },
+				{ from: './.hotreload', to: '.hotreload' },
 			],
 			copyOnStart: true,
 			watch: true,

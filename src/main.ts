@@ -17,7 +17,7 @@ export default class HextPlugin extends Plugin {
 		// Handle rendering the map
 		const processor = this.registerMarkdownCodeBlockProcessor("hext", async (source: string, el, ctx) => {
 			const div = el.createEl("div");
-			div.innerHTML = "<p>This is a placeholder for the rendered map</p>";
+			div.innerHTML = "<p>This is a placeholder for the hext map</p>";
         });
 		processor.sortOrder = -100;
 	}

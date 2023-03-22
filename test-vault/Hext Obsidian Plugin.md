@@ -1,5 +1,9 @@
+[Amazing Docs](https://marcus.se.net/obsidian-plugin-docs/)
+[Reference Plugin](https://github.com/blacksmithgu/obsidian-dataview)
+
 ## TODO
-- [ ] Enable hot-reloading
+- [x] Enable hot-reloading
+- [ ] Figure out why the codeblockprocessor doesn't automatically update
 - [ ] Generate a static SVG that auto-replaces code snippets
 - [ ] Add testing infrastructure
 
