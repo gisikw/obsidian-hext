@@ -3,9 +3,9 @@
 
 ## TODO
 - [x] Enable hot-reloading
-- [ ] Figure out why the codeblockprocessor doesn't automatically update
+- [x] Figure out why the codeblockprocessor doesn't automatically update - if the snippet is changed, live-preview updates. But reading view is stuck with a cached version.
 - [ ] Generate a static SVG that auto-replaces code snippets
-- [ ] Add testing infrastructure
+- [x] Add testing infrastructure
 
 ```hext
 0101 forest "Foxtear Woods"
@@ -23,4 +23,10 @@
 0302-0403-0502-0501-0401 blue
 0403 desert
 0502 desert
+0601 pie
+```
+
+
+```csv
+1,2,3,4
 ```
