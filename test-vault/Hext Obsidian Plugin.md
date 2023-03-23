@@ -2,10 +2,7 @@
 [Reference Plugin](https://github.com/blacksmithgu/obsidian-dataview)
 
 ## TODO
-- [x] Enable hot-reloading
-- [x] Figure out why the codeblockprocessor doesn't automatically update - if the snippet is changed, live-preview updates. But reading view is stuck with a cached version.
-- [x] Generate a static SVG that auto-replaces code snippets
-- [x] Add testing infrastructure
+
 
 ```hext
 0101 forest "Foxtear Woods"
