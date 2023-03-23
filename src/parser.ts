@@ -5,9 +5,8 @@ export function parse(input: string): Array<Hex> {
   const hexes: Array<Hex> = [];
 
   lines.forEach((line) => {
-    if (!line.includes('-')) {
-      const coordinates = line.split(' ')[0];
-      const hex = new Hex(coordinates);
+    if (!line.split(' ')[0].includes('-')) {
+      const hex = new Hex(line);
       hexes.push(hex);
     }
   });

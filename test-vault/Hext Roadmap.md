@@ -15,11 +15,12 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Parse terrain labels and set Hex backgrounds accordingly
 - [ ] Support Paths
 - [ ] Render coordinates in each hex
 - [ ] Render labels in each hex
 - [ ] #bugfix Clear out rendered SVGs associated with a particular file on close of that file
+- [ ] Fix incorrect icon offsets
+- [ ] Create two categories of offsets - points of interest and terrain decoration
 
 
 ## In Progress
@@ -34,6 +35,7 @@ kanban-plugin: basic
 - [ ] Enable hot-reloading
 - [ ] Extract the mapMap to a cache singleton
 - [ ] Move SVG render of Hex into Hex
+- [ ] Parse terrain labels and set Hex backgrounds accordingly
 
 
 

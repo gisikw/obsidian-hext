@@ -12,12 +12,11 @@ function getMinMaxXY(hexes: Array<Hex>, size: number): { minX: number; maxX: num
 	const vertices = boundaries.flatMap(h => h.vertices(size));
 	const xs = vertices.map(([x,y]) => x);
 	const ys = vertices.map(([x,y]) => y);
-	return {
-		minX: Math.min(...xs);
-		maxX: Math.max(...xs);
-		minY: Math.min(...ys);
-		maxY: Math.max(...ys);
-	};
+	const minX = Math.min(...xs);
+	const maxX = Math.max(...xs);
+	const minY = Math.min(...ys);
+	const maxY = Math.max(...ys);
+	return { minX, maxX, minY, maxY };
 }
 
 export function render(hexes: Array<Hex>, size: number): string {
