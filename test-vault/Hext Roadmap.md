@@ -15,13 +15,12 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Extract the mapMap to a cache singleton
 - [ ] Move SVG render of Hex into Hex
 - [ ] Parse terrain labels and set Hex backgrounds accordingly
 - [ ] Support Paths
-- [ ] #bugfix Clear out rendered SVGs associated with a particular file on close of that file
 - [ ] Render coordinates in each hex
 - [ ] Render labels in each hex
+- [ ] #bugfix Clear out rendered SVGs associated with a particular file on close of that file
 
 
 ## In Progress
@@ -34,6 +33,9 @@ kanban-plugin: basic
 - [ ] Generate a static SVG that auto-replaces code snippets
 - [ ] Add testing infrastructure
 - [ ] Enable hot-reloading
+- [ ] Extract the mapMap to a cache singleton
+
+
 
 
 %% kanban:settings
