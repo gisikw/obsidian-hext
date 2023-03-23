@@ -1,5 +1,8 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
 import { HexMap } from './ui/hex-map';
+import { Hex } from './models/hex';
+import { render } from './render';
+import { parse } from './parser';
 
 interface HextPluginSettings {
 	mySetting: string;
@@ -22,7 +25,7 @@ export default class HextPlugin extends Plugin {
 		const processor = this.registerMarkdownCodeBlockProcessor("hext", async (source: string, el, ctx) => {
 			const { lineStart, lineEnd } = ctx.getSectionInfo(el);
 			const key=`${ctx.sourcePath},${lineStart},${lineEnd}`;
-			mapMap.set(key, `Map last updated at ${Date.now()}`);
+			mapMap.set(key, render(parse(source), 100));
 			ctx.addChild(new HexMap(el, key, this.app, mapMap));
 			this.app.workspace.trigger("hext:refresh-views");
         });
