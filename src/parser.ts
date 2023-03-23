@@ -1,7 +1,7 @@
 import { Hex } from './models/hex';
 
 export function parse(input: string): Array<Hex> {
-  const lines = input.split('\n');
+  const lines = input.split('\n').filter(line => line);
   const hexes: Array<Hex> = [];
 
   lines.forEach((line) => {
