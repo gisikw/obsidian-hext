@@ -1,4 +1,4 @@
-import { Hex } from './models/hex';
+import { Hex } from './renderables/hex';
 
 export function parse(input: string): Array<Hex> {
   const lines = input.split('\n').filter(line => line);

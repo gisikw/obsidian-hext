@@ -15,7 +15,6 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Move SVG render of Hex into Hex
 - [ ] Parse terrain labels and set Hex backgrounds accordingly
 - [ ] Support Paths
 - [ ] Render coordinates in each hex
@@ -34,6 +33,7 @@ kanban-plugin: basic
 - [ ] Add testing infrastructure
 - [ ] Enable hot-reloading
 - [ ] Extract the mapMap to a cache singleton
+- [ ] Move SVG render of Hex into Hex
 
 
 
