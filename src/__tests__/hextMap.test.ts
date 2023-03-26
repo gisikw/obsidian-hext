@@ -1,4 +1,4 @@
-import hextMap from "./hextMap";
+import hextMap from "../hextMap";
 import {
 	MarkdownPostProcessorContext,
 	MarkdownSectionInformation,

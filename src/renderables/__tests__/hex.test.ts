@@ -1,4 +1,4 @@
-import { Hex } from "./hex";
+import { Hex } from "../hex";
 
 test("instantiation by offset coordinates", () => {
 	const h = new Hex("0203");
