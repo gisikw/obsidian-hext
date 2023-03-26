@@ -1,5 +1,5 @@
 import { MarkdownRenderChild } from "obsidian";
-import hextMap, { HextMapId } from '../hextMap';
+import hextMap, { HextMapId } from "../hextMap";
 
 export class HexMap extends MarkdownRenderChild {
 	containerEl: HTMLElement;
@@ -9,7 +9,7 @@ export class HexMap extends MarkdownRenderChild {
 	}
 
 	onload() {
-		this.wrapper = this.containerEl.createEl('div');
+		this.wrapper = this.containerEl.createEl("div");
 		this.subscription = hextMap.subscribe(this.id, this.render.bind(this));
 	}
 
