@@ -11,20 +11,25 @@ kanban-plugin: basic
 - [ ] Enhance syntax to support inline links, and make those SVG elements links
 - [ ] Generate point crawl from labeled points
 - [ ] Generate downloadable/printable png
+- [ ] Create two categories of offsets - points of interest and terrain decoration
+- [ ] Fix incorrect icon offsets
+- [ ] #bugfix Clear out rendered SVGs associated with a particular file on close of that file
+- [ ] Render labels in each hex
+- [ ] Render coordinates in each hex
+- [ ] Support Paths
 
 
 ## Todo
 
-- [ ] Support Paths
-- [ ] Render coordinates in each hex
-- [ ] Render labels in each hex
-- [ ] #bugfix Clear out rendered SVGs associated with a particular file on close of that file
-- [ ] Fix incorrect icon offsets
-- [ ] Create two categories of offsets - points of interest and terrain decoration
+- [ ] Update the HexGeometry node type to support pointy-top hexes
+- [ ] Refactor the AST transforms to avoid mutating nodes rather than replacing them
+- [ ] Add strict types to ASTNode classes
+- [ ] Consider merging .primitives and .children
 
 
 ## In Progress
 
+- [ ] Continue writing AST transforms until we get an SVG output
 
 
 ## Done

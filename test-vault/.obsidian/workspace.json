@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c43f4c7c7ce2004c",
+        "id": "c0cbe042c44e35e5",
         "type": "tabs",
         "children": [
           {
-            "id": "66b38d250ce5a6e7",
+            "id": "cc2e9d2963d1ba52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Hext Obsidian Plugin.md",
-                "mode": "source",
-                "source": false
+                "file": "Hext Roadmap.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hext Obsidian Plugin.md",
+                "file": "Hext Roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hext Obsidian Plugin.md",
+                "file": "Hext Roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hext Obsidian Plugin.md"
+                "file": "Hext Roadmap.md"
               }
             }
           }
@@ -146,7 +144,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "66b38d250ce5a6e7",
+  "active": "cc2e9d2963d1ba52",
   "lastOpenFiles": [
     "Hext Roadmap.md",
     "Hext Obsidian Plugin.md",
