@@ -21,7 +21,7 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Update the HexGeometry node type to support pointy-top hexes
+- [ ] Update the HexGeometry node type and the HexPixelTransformer to support pointy-top hexes
 - [ ] Refactor the AST transforms to avoid mutating nodes rather than replacing them
 - [ ] Add strict types to ASTNode classes
 - [ ] Consider merging .primitives and .children
