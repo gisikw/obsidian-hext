@@ -31,7 +31,6 @@ kanban-plugin: basic
 ## In Progress
 
 - [ ] Continue writing AST transforms until we get an SVG output
-- [ ] Write a TerrainTransformer that transforms terrain keys into background colors
 
 
 ## Done
@@ -43,6 +42,8 @@ kanban-plugin: basic
 - [ ] Extract the mapMap to a cache singleton
 - [ ] Move SVG render of Hex into Hex
 - [ ] Parse terrain labels and set Hex backgrounds accordingly
+- [ ] Write a TerrainTransformer that transforms terrain keys into background colors
+- [ ] Write an SVGBoundsVisitor that can identify our min/max x,y
 
 
 
