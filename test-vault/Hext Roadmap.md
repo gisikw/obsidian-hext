@@ -24,13 +24,10 @@ kanban-plugin: basic
 
 ## Todo
 
-- [ ] Write an SVGTagTransformer that adds .svgPre and .svgPost to nodes
-- [ ] Write an SVGGenerator that overwrites visit. Concat the .svgPre, super(), then the .svgPost
 
 
 ## In Progress
 
-- [ ] Continue writing AST transforms until we get an SVG output
 
 
 ## Done
@@ -44,6 +41,9 @@ kanban-plugin: basic
 - [ ] Parse terrain labels and set Hex backgrounds accordingly
 - [ ] Write a TerrainTransformer that transforms terrain keys into background colors
 - [ ] Write an SVGBoundsVisitor that can identify our min/max x,y
+- [ ] Write an SVGTagTransformer that adds .svgPre and .svgPost to nodes
+- [ ] Continue writing AST transforms until we get an SVG output
+- [ ] Write an SVGGenerator that overwrites visit. Concat the .svgPre, super(), then the .svgPost
 
 
 
