@@ -16,20 +16,22 @@ kanban-plugin: basic
 - [ ] #bugfix Clear out rendered SVGs associated with a particular file on close of that file
 - [ ] Render labels in each hex
 - [ ] Render coordinates in each hex
+- [ ] Update the HexGeometry node type and the HexPixelTransformer to support pointy-top hexes
 - [ ] Support Paths
+- [ ] Refactor the AST transforms to avoid mutating nodes rather than replacing them?
+- [ ] Add strict types to ASTNode classes
 
 
 ## Todo
 
-- [ ] Update the HexGeometry node type and the HexPixelTransformer to support pointy-top hexes
-- [ ] Refactor the AST transforms to avoid mutating nodes rather than replacing them
-- [ ] Add strict types to ASTNode classes
-- [ ] Consider merging .primitives and .children
+- [ ] Write an SVGTagTransformer that adds .svgPre and .svgPost to nodes
+- [ ] Write an SVGGenerator that overwrites visit. Concat the .svgPre, super(), then the .svgPost
 
 
 ## In Progress
 
 - [ ] Continue writing AST transforms until we get an SVG output
+- [ ] Write a TerrainTransformer that transforms terrain keys into background colors
 
 
 ## Done
